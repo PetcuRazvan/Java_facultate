@@ -3,7 +3,7 @@ package model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Student {
+public class Student implements Comparable<Student>{
     private final int id;
     private final String nume;
     private final List<Nota> note;
@@ -76,5 +76,10 @@ public class Student {
     @Override
     public String toString() {
         return String.format("%-18s - %d", this.nume, this.id);
+    }
+
+    @Override
+    public int compareTo(Student student) {
+        return Integer.compare(this.id, student.getId());
     }
 }
