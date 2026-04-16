@@ -36,7 +36,7 @@ public class Catalog {
             String linieNote = scanner.nextLine();
 
             var student = new Student(
-                    Integer.parseInt(linieStudent.split(",")[0]),
+                    Integer.parseInt(linieStudent.split(",")[0]), //1, Petcu, Razvan, 67  ["1", "Petcu", "Razvan", "67"]
                     linieStudent.split(",")[1],
                     Integer.parseInt(linieStudent.split(",")[2]),
                     Integer.parseInt(linieStudent.split(",")[3]));

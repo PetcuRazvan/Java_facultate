@@ -29,7 +29,7 @@ public class Student {
         return nume;
     }
 
-    public Set<String> getDisciplina() { //returnam ca Set pt ca cheile sunt valori unice
+    public Set<String> getDiscipline() { //returnam ca Set pt ca cheile sunt valori unice
         return note.keySet();
     }
 

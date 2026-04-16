@@ -71,7 +71,7 @@ public class Student {
                 return;
             }
 
-        note = (Nota[])Arrays.copyOf(note, note.length + 1); //merge si fara cast la Nota[]
+        note = (Nota[]) Arrays.copyOf(note, note.length + 1); //merge si fara cast la Nota[]
         note[note.length - 1] = nota;
     }
 }

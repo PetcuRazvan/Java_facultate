@@ -1,0 +1,5 @@
+1;Popescu;Ion;9
+2;ionescu;Maria;7
+3;Georgescu;Ana;10
+4;Popescu;Andrei;6
+5;Ionescu;Elena;8

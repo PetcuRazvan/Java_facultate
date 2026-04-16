@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.Comparator;
+
 import java.util.Scanner;
 
 public class ProgramStudenti {
@@ -23,7 +22,7 @@ public class ProgramStudenti {
         System.out.println(s2);
 
         String test = "Salut"; //String este o clasa imutabila
-        test = test + "!"; //cand facem asta face o copie, nu modifica
+        test = test.concat("!"); //cand facem asta face o copie, nu modifica
     }
 
     static void afisare(String mesaj) {
